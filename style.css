@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+header{
+    background-color:  #eaf2ff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.heaader_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+.img_logo img{
+    width: 50px;
+    height: 50px; 
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase; /*METTRE LE TEXTE EN MAJUSCULE*/
+    font-size: 16px;
+    color: black;
+    font-weight: bold
+}
+#home {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background-color: #eaf2ff;
+}
+.home_text {
+  width: 50%;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.primary {
+  background-color: #2d4cff;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #2d4cff;
+  color: #2d4cff;
+}
+#services {
+  padding: 80px;
+  text-align: center;
+}
+
+.services_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.service {
+  width: 22%;
+}
+#about .about-container {
+  display: flex;
+  gap: 40px;
+}
+
+#about .stats {
+  display: flex;
+  gap: 20px;
+}
+#team {
+  padding: 80px;
+  text-align: center;
+}
+
+.team_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.member {
+  width: 22%;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+ #contact {
+  padding: 80px 10%;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+#contact .contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
